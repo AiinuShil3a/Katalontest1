@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS001_search by keyword" time="22.354" tests="3" failures="0" errors="0">
+   <testsuite name="TS001_search by keyword" tests="3" failures="0" errors="0" time="22.354" skipped="0" timestamp="2022-12-16 12:26:13" hostname="Shil3 - SDM8648" id="Test Suites/TS001_search by keyword">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Shil3\\Katalon Studio\\TestingKatalon\\Reports\\20221216_122558\\TS001_search by keyword\\20221216_122558"/>
+         <property name="logFiles" value="C:\\Users\\Shil3\\Katalon Studio\\TestingKatalon\\Reports\\20221216_122558\\TS001_search by keyword\\20221216_122558\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Shil3 - SDM8648"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.5.5.208"/>
+         <property name="browser" value="Chrome 108.0.0.0"/>
+         <property name="hostAddress" value="172.24.0.1"/>
+         <property name="sessionId" value="fa3d149f63c96f1d72a28d4b2925ae8c"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Test1" time="7.697" classname="Test Cases/Test1" status="PASSED">
+         <system-out><![CDATA[2022-12-16 12:26:14 - [TEST_CASE][PASSED] - Test Cases/Test1: Test Cases/Test1
+
+2022-12-16 12:26:14 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-12-16 12:26:14 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-12-16 12:26:14 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-12-16 12:26:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-12-16 12:26:16 - [TEST_STEP][PASSED] - navigateToUrl("https://www.google.com/"): Navigate to 'https://www.google.com/' successfully
+
+2022-12-16 12:26:17 - [MESSAGE][PASSED] - Navigate to 'https://www.google.com/' successfully
+
+2022-12-16 12:26:17 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Google/input__q"), "บิ๊กตู่"): Text 'บิ๊กตู่' is set on object 'Object Repository/Page_Google/input__q'
+
+2022-12-16 12:26:17 - [MESSAGE][PASSED] - Text 'บิ๊กตู่' is set on object 'Object Repository/Page_Google/input__q'
+
+2022-12-16 12:26:17 - [TEST_STEP][PASSED] - click(findTestObject("Page_Google/input_btnK")): Object: 'Object Repository/Page_Google/input_btnK' is clicked on
+
+2022-12-16 12:26:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Google/input_btnK' is clicked on
+
+2022-12-16 12:26:20 - [TEST_STEP][PASSED] - verifyTextPresent("ประยุทธ์ จันทร์โอชา", false): Text 'ประยุทธ์ จันทร์โอชา' is present on page 
+
+2022-12-16 12:26:21 - [MESSAGE][PASSED] - Text 'ประยุทธ์ จันทร์โอชา' is present on page 
+
+2022-12-16 12:26:21 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-12-16 12:26:21 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test2" time="6.652" classname="Test Cases/Test2" status="PASSED">
+         <system-out><![CDATA[2022-12-16 12:26:21 - [TEST_CASE][PASSED] - Test Cases/Test2: Test Cases/Test2
+
+2022-12-16 12:26:21 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-12-16 12:26:21 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-12-16 12:26:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-12-16 12:26:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-12-16 12:26:23 - [TEST_STEP][PASSED] - navigateToUrl("https://www.google.com/"): Navigate to 'https://www.google.com/' successfully
+
+2022-12-16 12:26:23 - [MESSAGE][PASSED] - Navigate to 'https://www.google.com/' successfully
+
+2022-12-16 12:26:23 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Google/input__q"), "บิ๊กป้อม"): Text 'บิ๊กป้อม' is set on object 'Object Repository/Page_Google/input__q'
+
+2022-12-16 12:26:24 - [MESSAGE][PASSED] - Text 'บิ๊กป้อม' is set on object 'Object Repository/Page_Google/input__q'
+
+2022-12-16 12:26:24 - [TEST_STEP][PASSED] - click(findTestObject("Page_Google/input_btnK")): Object: 'Object Repository/Page_Google/input_btnK' is clicked on
+
+2022-12-16 12:26:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Google/input_btnK' is clicked on
+
+2022-12-16 12:26:26 - [TEST_STEP][PASSED] - verifyTextPresent("บิ๊กป้อม", false): Text 'บิ๊กป้อม' is present on page 
+
+2022-12-16 12:26:27 - [MESSAGE][PASSED] - Text 'บิ๊กป้อม' is present on page 
+
+2022-12-16 12:26:27 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-12-16 12:26:28 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test3" time="7.836" classname="Test Cases/Test3" status="PASSED">
+         <system-out><![CDATA[2022-12-16 12:26:28 - [TEST_CASE][PASSED] - Test Cases/Test3: Test Cases/Test3
+
+2022-12-16 12:26:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-12-16 12:26:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-12-16 12:26:28 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-12-16 12:26:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-12-16 12:26:29 - [TEST_STEP][PASSED] - navigateToUrl("https://www.google.com/"): Navigate to 'https://www.google.com/' successfully
+
+2022-12-16 12:26:30 - [MESSAGE][PASSED] - Navigate to 'https://www.google.com/' successfully
+
+2022-12-16 12:26:30 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Google/input__q"), "ปรารีนา"): Text 'ปรารีนา' is set on object 'Object Repository/Page_Google/input__q'
+
+2022-12-16 12:26:31 - [MESSAGE][PASSED] - Text 'ปรารีนา' is set on object 'Object Repository/Page_Google/input__q'
+
+2022-12-16 12:26:31 - [TEST_STEP][PASSED] - click(findTestObject("Page_Google/input_btnK")): Object: 'Object Repository/Page_Google/input_btnK' is clicked on
+
+2022-12-16 12:26:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Google/input_btnK' is clicked on
+
+2022-12-16 12:26:34 - [TEST_STEP][PASSED] - verifyTextPresent("ปรารีนา", false): Text 'ปรารีนา' is present on page 
+
+2022-12-16 12:26:35 - [MESSAGE][PASSED] - Text 'ปรารีนา' is present on page 
+
+2022-12-16 12:26:35 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-12-16 12:26:36 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-12-16 12:26:13 - [TEST_SUITE][PASSED] - TS001_search by keyword: Test Cases/Test3]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
